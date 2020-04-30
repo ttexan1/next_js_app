@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = 'Tetsuji Higashi'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({
@@ -39,6 +39,8 @@ export default function Layout({
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h2>Birthday: H 7.7.7</h2>
+            <h2>Language: Golang Ruby</h2>
           </>
         ) : (
           <>
